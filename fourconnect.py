@@ -2,10 +2,9 @@ import numpy as np
 
 #The player class and their attributes and methods
 class Player:
-    def __init__(self, name, player_tag, winner=False):
+    def __init__(self, name, player_tag):
         self.name = name 
         self.player_tag = player_tag
-        self.winner = winner
 
     #Make the player choose a column for the turn 
     def choose_column(self):
